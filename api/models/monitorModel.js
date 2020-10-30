@@ -3,33 +3,39 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 const MonitorModelSchema = new Schema({
-    name: {
+    title: {
         type: String,
-        required: 'please enter the monitor name'
+        required: 'please enter the monitor title'
     },
-    email: {
+    owner: {
         type: String,
-        required: 'email required'
+        required: 'monitor owner required'
     },
-    cpf: {
-        type: String,
-        required: 'cpf required'
+    elements: [],
+    grid: {
+        type: Array,
+        default: [
+            [0,0,0,0,0,0,0,0], // Row 0
+            [0,0,0,0,0,0,0,0], // 1
+            [0,0,0,0,0,0,0,0], // 2
+            [0,0,0,0,0,0,0,0], // 3
+            [0,0,0,0,0,0,0,0], // 4
+            [0,0,0,0,0,0,0,0], // 5
+            [0,0,0,0,0,0,0,0], // 6
+            [0,0,0,0,0,0,0,0]  // 7
+        ]
     },
-    address: {
-        type: String,
-        required: 'address required'
-    },
-    debts: [],
-    birthdate: {
-        type: Date,
-        default: Date.now
-    },
-    assets: [],
-    revenues: [],
     createdDate: {
         type: Date,
         default: Date.now
     }
 });
+
+/*
+
+MonitorModelSchema.virtual('fullName').get(function() {
+    return this.name.first + ' ' + this.name.last;
+});
+*/
 
 module.exports = mongoose.model('MonitorModel', MonitorModelSchema);

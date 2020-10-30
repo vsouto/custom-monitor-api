@@ -8,4 +8,6 @@ module.exports = function(app) {
     .get(monitor.read)
     .put(monitor.update)
     .delete(monitor.delete);
+  app.route('/monitor/addElement')
+    .post(monitor.addElement);
 };
