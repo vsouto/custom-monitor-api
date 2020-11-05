@@ -2,12 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc69c821-c527-4174-9b5e-548ce6e7a131" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/controllers/monitorController.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/controllers/monitorController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/models/monitorModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/models/monitorModel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/routes/monitorRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/routes/monitorRoutes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/controllers/elementController.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/controllers/monitorController.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/controllers/templateController.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/controllers/userController.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/models/elementModel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/models/monitorModel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/models/templateModel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/models/userModel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/routes/elementRoutes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/routes/monitorRoutes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/routes/templateRoutes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/routes/userRoutes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/elements/element.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/monitor/monitor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,55 +33,49 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/models/elementModel.js">
+        <entry file="file://$PROJECT_DIR$/front/src/views/Poc.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+            <state relative-caret-position="136">
+              <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/controllers/monitorController.js">
+        <entry file="file://$PROJECT_DIR$/front/src/views/sidebar/sidebar.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="37" lean-forward="true" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+            <state relative-caret-position="392">
+              <caret line="59" column="18" lean-forward="true" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
+              <folding>
+                <element signature="n#style#0;n#v-sheet#0;n#template#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/framework/element.js">
+        <entry file="file://$PROJECT_DIR$/front/src/views/sidebar/sidebar-tasy.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="35" lean-forward="true" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/framework/monitor.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="20" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+            <state relative-caret-position="51">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/api/models/monitorModel.js">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+            <state relative-caret-position="51">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/back/api/controllers/monitorController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -81,6 +90,8 @@
       <find>Element</find>
       <find>console</find>
       <find>console.</find>
+      <find>serasa</find>
+      <find>philips</find>
     </findStrings>
     <replaceStrings>
       <replace>Template</replace>
@@ -88,9 +99,11 @@
       <replace>Element</replace>
       <replace>MonitorModel</replace>
       <replace>ElementModel</replace>
+      <replace>Philips</replace>
     </replaceStrings>
     <dirStrings>
       <dir>C:\Projetos\custom-monitor-api\api</dir>
+      <dir>C:\Projetos\custom-monitor-api\front</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -103,16 +116,30 @@
         <option value="$PROJECT_DIR$/api/controllers/templateController.js" />
         <option value="$PROJECT_DIR$/api/routes/templateRoutes.js" />
         <option value="$PROJECT_DIR$/api/models/templateModel.js" />
-        <option value="$PROJECT_DIR$/api/controllers/elementController.js" />
-        <option value="$PROJECT_DIR$/api/routes/elementRoutes.js" />
-        <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/api/models/elementModel.js" />
         <option value="$PROJECT_DIR$/framework/monitor.js" />
-        <option value="$PROJECT_DIR$/api/routes/monitorRoutes.js" />
-        <option value="$PROJECT_DIR$/api/framework/element.js" />
         <option value="$PROJECT_DIR$/api/framework/monitor.js" />
-        <option value="$PROJECT_DIR$/api/controllers/monitorController.js" />
         <option value="$PROJECT_DIR$/api/models/monitorModel.js" />
+        <option value="$PROJECT_DIR$/api/routes/elementRoutes.js" />
+        <option value="$PROJECT_DIR$/api/controllers/elementController.js" />
+        <option value="$PROJECT_DIR$/api/framework/element.js" />
+        <option value="$PROJECT_DIR$/api/framework/elements/tokenElement.js" />
+        <option value="$PROJECT_DIR$/api/framework/elements/element.js" />
+        <option value="$PROJECT_DIR$/api/framework/elements/normalElement.html" />
+        <option value="$PROJECT_DIR$/api/routes/monitorRoutes.js" />
+        <option value="$PROJECT_DIR$/views/monitor.html" />
+        <option value="$PROJECT_DIR$/api/controllers/monitorController.js" />
+        <option value="$PROJECT_DIR$/framework/views/monitor.html" />
+        <option value="$PROJECT_DIR$/framework/views/monitor.js" />
+        <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/back/api/controllers/monitorController.js" />
+        <option value="$PROJECT_DIR$/front/src/router/index.ts" />
+        <option value="$PROJECT_DIR$/front/src/views/Home.vue" />
+        <option value="$PROJECT_DIR$/front/src/views/Poc.vue" />
+        <option value="$PROJECT_DIR$/front/src/views/sidebar/sidebar.vue" />
+        <option value="$PROJECT_DIR$/front/src/App.vue" />
+        <option value="$PROJECT_DIR$/front/src/views/sidebar/sidebar-tasy.vue" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -137,7 +164,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -145,48 +171,34 @@
               <item name="custom-monitor-api" type="b2602c69:ProjectViewProjectNode" />
               <item name="custom-monitor-api" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="custom-monitor-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="custom-monitor-api" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="custom-monitor-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="custom-monitor-api" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="custom-monitor-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="custom-monitor-api" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="custom-monitor-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="custom-monitor-api" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../laivista" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../petclub" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Projetos\custom-monitor-api\front\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Projetos\custom-monitor-api\back\framework" />
+      <recent name="C:\Projetos\custom-monitor-api" />
+      <recent name="C:\Projetos\custom-monitor-api\api\framework\monitor" />
+      <recent name="C:\Projetos\custom-monitor-api\api\framework\elements" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projetos\custom-monitor-api\front\src\assets\bootstrap" />
+      <recent name="C:\Projetos\custom-monitor-api\front\src\views" />
+      <recent name="C:\Projetos\custom-monitor-api\views" />
+      <recent name="C:\Projetos\custom-monitor-api\api\framework\elements" />
       <recent name="C:\Projetos\custom-monitor-api\api\framework" />
-      <recent name="C:\Projetos\custom-monitor-api\api\routes" />
-      <recent name="C:\Projetos\custom-monitor-api\api\models" />
-      <recent name="C:\Projetos\custom-monitor-api\api\controllers" />
-      <recent name="C:\workspace\custom-monitor-api\api\routes" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -214,12 +226,15 @@
       <workItem from="1603974246187" duration="1310000" />
       <workItem from="1603989675581" duration="1533000" />
       <workItem from="1603997151445" duration="5109000" />
-      <workItem from="1604061124790" duration="12510000" />
+      <workItem from="1604061124790" duration="17152000" />
+      <workItem from="1604407399221" duration="5673000" />
+      <workItem from="1604492571619" duration="8560000" />
+      <workItem from="1604595692152" duration="1537000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17619000" />
+    <option name="totallyTimeSpent" value="38031000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -230,7 +245,7 @@
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3290461" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -240,6 +255,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="TypeScript" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -281,108 +297,103 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.env">
+    <entry file="file://$PROJECT_DIR$/.env" />
+    <entry file="file://$PROJECT_DIR$/api/controllers/templateController.js" />
+    <entry file="file://$PROJECT_DIR$/api/routes/templateRoutes.js" />
+    <entry file="file://$PROJECT_DIR$/api/models/templateModel.js" />
+    <entry file="file://$PROJECT_DIR$/framework/monitor.js" />
+    <entry file="file://$PROJECT_DIR$/api/routes/userRoutes.js" />
+    <entry file="file://$PROJECT_DIR$/framework/monitor/monitor.js" />
+    <entry file="file://$PROJECT_DIR$/framework/elements/tokenElement.js" />
+    <entry file="file://$PROJECT_DIR$/framework/elements/normalElement.js" />
+    <entry file="file://$PROJECT_DIR$/api/routes/elementRoutes.js" />
+    <entry file="file://$PROJECT_DIR$/framework/elements/element.js" />
+    <entry file="file://$PROJECT_DIR$/framework/elements/normalElement.html" />
+    <entry file="file://$PROJECT_DIR$/api/controllers/elementController.js" />
+    <entry file="file://$PROJECT_DIR$/api/models/monitorModel.js" />
+    <entry file="file://$PROJECT_DIR$/api/routes/monitorRoutes.js" />
+    <entry file="file://$PROJECT_DIR$/framework/views/monitor.js" />
+    <entry file="file://$PROJECT_DIR$/views/monitor.html" />
+    <entry file="file://$PROJECT_DIR$/server.js" />
+    <entry file="file://$PROJECT_DIR$/api/controllers/monitorController.js" />
+    <entry file="file://$PROJECT_DIR$/api/models/elementModel.js" />
+    <entry file="file://$PROJECT_DIR$/package.json" />
+    <entry file="file://$PROJECT_DIR$/front/src/router/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="27" selection-start-column="27" selection-end-column="27" />
+          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/controllers/templateController.js">
+    <entry file="file://$PROJECT_DIR$/front/src/views/Home.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="44" column="37" selection-start-line="44" selection-start-column="37" selection-end-line="44" selection-end-column="37" />
+        <state relative-caret-position="272">
+          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/routes/templateRoutes.js">
+    <entry file="file://$PROJECT_DIR$/front/src/assets/bootstrap/css/bootstrap.css" />
+    <entry file="file://$PROJECT_DIR$/front/src/main.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        <state>
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/controllers/elementController.js">
+    <entry file="file://$PROJECT_DIR$/back/api/controllers/monitorController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="44" column="36" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
+        <state relative-caret-position="340">
+          <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/routes/elementRoutes.js">
+    <entry file="file://$PROJECT_DIR$/front/src/views/sidebar/sidebar.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        <state relative-caret-position="392">
+          <caret line="59" column="18" lean-forward="true" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
+          <folding>
+            <element signature="n#style#0;n#v-sheet#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/models/templateModel.js">
+    <entry file="file://$PROJECT_DIR$/front/src/App.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="119">
+          <caret line="7" column="39" lean-forward="true" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/framework/monitor.js">
+    <entry file="file://$PROJECT_DIR$/front/src/views/Poc.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/views/sidebar/sidebar-tasy.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/routes/userRoutes.js">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/models/elementModel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/routes/monitorRoutes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/framework/element.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="35" lean-forward="true" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/controllers/monitorController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="37" lean-forward="true" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/framework/monitor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="20" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/models/monitorModel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        <state relative-caret-position="51">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
         </state>
       </provider>
     </entry>

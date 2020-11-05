@@ -29,7 +29,11 @@ exports.read = function(req, res) {
 };
 
 exports.update = function(req, res) {
-    Element.findOneAndUpdate({_id: req.params.elementId}, req.body, {new: true}, function(err, element) {
+
+    if (!req || ! req.body.elementId || !mongoose.Types.ObjectId.isValid(req.body.elementId))
+        res.send('elementId required as ObjectId');
+
+    Element.findOneAndUpdate({_id: req.body.elementId}, req.body, {new: true}, function(err, element) {
         if (err)
             res.send(err);
         res.json(element);
@@ -43,5 +47,13 @@ exports.delete = function(req, res) {
         if (err)
             res.send(err);
         res.json({ message: 'Element successfully deleted' });
+    });
+};
+
+exports.getProps = function(req, res) {
+    Element.findById(req.params.elementId, function(err, element) {
+        if (err)
+            res.send(err);
+        res.json(element.props);
     });
 };

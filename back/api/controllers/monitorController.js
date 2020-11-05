@@ -1,9 +1,12 @@
 'use strict';
 
+var path = require('path');
+var rootPath = path.dirname(require.main.filename);
+
 const mongoose = require('mongoose'),
   MonitorModel = mongoose.model('MonitorModel'),
-    Monitor = require('./../framework/monitor'),
-    Element = require('./../framework/element'),
+    Monitor = require('../../framework/monitor'),
+    Element = require('../../framework/element'),
     ElementModel = mongoose.model('ElementModel');
 
 exports.listAll = function(req, res) {
@@ -99,5 +102,24 @@ exports.moveElement = function(req, res) {
         if (err)
             res.send(err);
         res.json(monitor);
+    });
+};
+
+exports.render = function(req, res) {
+
+    if (!req || ! req.params.monitorId || !mongoose.Types.ObjectId.isValid(req.params.monitorId))
+        res.send('monitorId and elementId required as ObjectId');
+
+    // Get the monitor
+    MonitorModel.findById(req.params.monitorId, function(err, monitor) {
+        if (err)
+            res.send(err);
+
+        //console.log(req.app.get('views'));
+
+        //res.sendFile(path.join(rootPath + '/framework/views/monitor.js'));
+        res.render('monitor', { name: 'Tobi' }, function (err, html) {
+            // ...
+        })
     });
 };

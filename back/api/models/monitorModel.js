@@ -32,10 +32,9 @@ const MonitorModelSchema = new Schema({
 });
 
 /*
-
-MonitorModelSchema.virtual('fullName').get(function() {
-    return this.name.first + ' ' + this.name.last;
-});
+    MonitorModelSchema.virtual('fullName').get(function() {
+        return this.name.first + ' ' + this.name.last;
+    });
 */
 
 module.exports = mongoose.model('MonitorModel', MonitorModelSchema);

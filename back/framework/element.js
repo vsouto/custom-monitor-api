@@ -9,8 +9,9 @@ module.exports = class Element {
         this.rows = options.rows;
         this.cols = options.cols;
 
-
         //Object.assign(this, options)
     }
 
 }
+
+

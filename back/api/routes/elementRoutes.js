@@ -8,4 +8,6 @@ module.exports = function(app) {
     .get(element.read)
     .put(element.update)
     .delete(element.delete);
+  app.route('/element/props')
+    .get(element.getProps)
 };
