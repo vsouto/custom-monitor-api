@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="monitor-grid" v-dragula="colTwo" bag="first">
+    <div class="monitor-grid" v-dragula="colTwo" drake="first">
       <div class="toolbar-element">
         <div>
           <h5>Token de topo 1</h5>
@@ -18,11 +18,15 @@
         <div class="toolbar-element-image"></div>
       </div>
     </div>
-    </div>
   </div>
 </template>
 
 <script>
+
+  import Vue from 'vue'
+
+  // @ts-ignore
+  import { Vue2Dragula } from "vue2-dragula"
 
   export default {
     name: 'MonitorGrid',
@@ -35,13 +39,10 @@
       ],
     }),
     ready() {
-      Vue.vueDragula.eventBus.$on(
-        'drop',
-        function (args) {
-          console.log('drop: ' + args[0])
-          console.log(_this.categories)
-        }
-      )
+
+    },
+    created () {
+
     }
   };
 </script>

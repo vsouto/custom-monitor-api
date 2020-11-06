@@ -1,5 +1,5 @@
 <template>
-  <div class="toolbar-elements" v-dragula="colOne" bag="first" drake="firsto">
+  <div class="toolbar-elements" v-dragula="colOne" drake="first">
     <h2>Elements</h2>
     <div class="toolbar-element">
       <div>
@@ -39,7 +39,38 @@
       ],
     }),
     mounted() {
-      var _this = this
+
+      var service = Vue.$dragula.$service;
+
+      var dragulaOptions = {
+        isContainer: function (el) {
+          console.log('isContainer');
+          return false; // only elements in drake.containers will be taken into account
+        },
+        moves: function (el, source, handle, sibling) {
+          console.log('movingg');
+          return true; // elements are always draggable by default
+        },
+        accepts: function (el, target, source, sibling) {
+          console.log('accepts');
+          return true; // elements can be dropped in any of the `containers` by default
+        },
+        invalid: function (el, handle) {
+          console.log('invalid');
+          return false; // don't prevent any drags from initiating by default
+        },
+        direction: 'vertical',             // Y axis is considered when determining where an element would be dropped
+        copy: false
+      }
+
+      //service.options('first', dragulaOptions)
+
+      service.eventBus.$on('drop', (args) => {
+        console.log('drop: ' + args[0])
+        console.log(args);
+      })
+
+      /*var _this = this
       Vue.vueDragula.eventBus.$on(
         'drop',
         function (args) {
@@ -53,7 +84,7 @@
           console.log('dropModel: ' + args)
           console.log(_this.categories)
         }
-      )
+      )*/
     },
     ready: function () {
 
