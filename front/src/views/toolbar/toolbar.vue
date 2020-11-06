@@ -73,23 +73,3 @@
   };
 </script>
 
-<style>
-  .toolbar-container{
-    width: 380px;
-    height: 420px;
-  }
-  .toolbar{
-    width: 30px;
-    height: 320px;
-    background-color: grey;
-    padding: 2px;
-  }
-
-  .toolbar-button {
-    width: 18px;
-    height: 22px;
-    margin: 4px;
-    background-color: darkgray;
-    color: white;
-  }
-</style>

@@ -34,7 +34,7 @@ var dragulaOptions = {
   direction: 'vertical',             // Y axis is considered when determining where an element would be dropped
   copy: false,
   logging: {
-    service: true // to only log methods in service (DragulaService)
+    service: false // to only log methods in service (DragulaService)
   }
 }
 

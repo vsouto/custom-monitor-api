@@ -1,0 +1,64 @@
+
+
+/**
+ * MONITOR
+ */
+.monitor-grid{
+    width: 820px;
+    height: 500px;
+    background-color: grey;
+    margin: 4px;
+    z-index: 1;
+}
+
+.grid-row{
+    height: 12.5%;
+    width: 100%;
+    background-color: darkgrey;
+    margin: 2px;
+}
+
+/**
+ * TOOLBAR
+ */
+.toolbar-container{
+    width: 380px;
+    height: 420px;
+}
+.toolbar{
+    width: 30px;
+    height: 320px;
+    background-color: grey;
+    padding: 2px;
+}
+
+.toolbar-button {
+    width: 18px;
+    height: 22px;
+    margin: 4px;
+    background-color: darkgray;
+    color: white;
+}
+
+/**
+ * ELEMENTS
+ */
+.toolbar-elements{
+    width: 230px;
+    height: 414px;
+    background-color: lightcyan;
+    margin: 6px;
+    padding: 6px;
+    position: absolute;
+    top: 65px;
+    left: 100px;
+    z-index: 99;
+}
+
+.toolbar-element-image{
+    width: 180px;
+    height: 80px;
+    background-color: gainsboro;
+    border: 1px;
+    border-color: aqua;
+}
