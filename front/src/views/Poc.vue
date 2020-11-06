@@ -2,21 +2,17 @@
   <div class="home">
     <v-container>
       <v-row class="text-center">
-        <h1>Welcome to Custom Monitor Proof of Concept</h1>
+        <h1>Custom Monitor Proof of Concept</h1>
       </v-row>
 
       <v-row>
-        <sidebar-tasy></sidebar-tasy>
 
-        <v-col cols="12">
+        <v-col cols="3">
+          <toolbar></toolbar>
         </v-col>
 
-        <v-col class="mb-8 pb-8">
-
-          <br>
-          <p class="subheading font-weight-regular">
-            Hello
-          </p>
+        <v-col cols="6">
+          <monitor-grid></monitor-grid>
         </v-col>
 
       </v-row>
@@ -26,16 +22,17 @@
 
 <script>
 
-import SidebarTasy from "@/views/sidebar/sidebar-tasy";
-//import Sidebar from "@/views/sidebar/sidebar";
+  import Toolbar from "@/views/toolbar/toolbar";
+  import MonitorGrid from "@/views/monitor/monitor-grid";
 
-export default {
-  name: 'Poc',
-  components: {
-    SidebarTasy
-  },
-  data: () => ({
+  export default {
+    name: 'Poc',
+    components: {
+      Toolbar,
+      MonitorGrid
+    },
+    data: () => ({
 
-  })
-};
+    })
+  };
 </script>

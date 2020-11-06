@@ -36,6 +36,7 @@
   </v-app>
 </template>
 
+<script src="assets/dragula/dragula.js"></script>
 
 <script lang="ts">
 import Vue from 'vue';
@@ -48,3 +49,7 @@ export default Vue.extend({
   }),
 });
 </script>
+
+<style>
+  @import './assets/dragula/dragula.min.css';
+</style>
