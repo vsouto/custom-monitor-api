@@ -4,7 +4,7 @@
  * MONITOR
  */
 .monitor-grid{
-    width: 820px;
+    width: 808px;
     height: 500px;
     background-color: grey;
     margin: 4px;
@@ -25,6 +25,27 @@
     background-color: ghostwhite;
     margin: 2px;
     padding: 2px;
+}
+
+/*
+.grid-col{
+    border: 1px;
+    border-color: ghostwhite;
+    padding: 0.8em;
+}*/
+
+.grid-cel{
+    /*padding: 0.8em;*/
+    background-color: lightslategray;
+}
+/*
+.box-row{
+    border: 1px;
+    border-color: ghostwhite;
+}*/
+
+.row{
+    width: 100%; /* With this little hack the row will be fully displayed, even if the template is badly configured*/
 }
 
 /**
