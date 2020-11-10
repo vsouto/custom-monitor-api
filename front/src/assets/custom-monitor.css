@@ -18,6 +18,15 @@
     margin: 2px;
 }
 
+.grid-column{
+    float: left;
+    height: 96%;
+    width: 12%;
+    background-color: ghostwhite;
+    margin: 2px;
+    padding: 2px;
+}
+
 /**
  * TOOLBAR
  */
@@ -61,4 +70,43 @@
     background-color: gainsboro;
     border: 1px;
     border-color: aqua;
+}
+
+
+/**
+ * EFFECTS
+ */
+[drake] >:hover {
+    border: 2px solid dimgrey;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+.ex-moved {
+    animation: fadeIn .5s ease-in 1 forwards;
+    border: 2px solid yellow;
+    padding: 2px
+}
+
+.ex-over {
+    animation: fadeIn .5s ease-in 1 forwards;
+    border: 4px solid green;
+    padding: 2px
+}
+
+.container .ex-moved {
+    background-color: #e74c3c;
+}
+.container.ex-over {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.handle {
+    padding: 0 5px;
+    margin-right: 5px;
+    background-color: rgba(0, 0, 0, 0.4);
+    cursor: move;
 }

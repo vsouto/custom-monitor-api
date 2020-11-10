@@ -2,27 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc69c821-c527-4174-9b5e-548ce6e7a131" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/controllers/elementController.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/controllers/monitorController.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/controllers/templateController.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/controllers/userController.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/models/elementModel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/models/monitorModel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/models/templateModel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/models/userModel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/routes/elementRoutes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/routes/monitorRoutes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/routes/templateRoutes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/routes/userRoutes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/elements/element.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/monitor/monitor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/framework/monitor.js" beforeDir="false" afterPath="$PROJECT_DIR$/back/framework/monitor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/front/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/assets/custom-monitor.css" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/assets/custom-monitor.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/views/monitor/monitor-grid.vue" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/views/monitor/monitor-grid.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/views/toolbar/toolbar-elements.vue" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/views/toolbar/toolbar-elements.vue" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,49 +19,49 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front/src/views/Poc.vue">
+        <entry file="file://$PROJECT_DIR$/front/src/main.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front/src/views/sidebar/sidebar.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="59" column="18" lean-forward="true" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
+            <state relative-caret-position="476">
+              <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
               <folding>
-                <element signature="n#style#0;n#v-sheet#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="e#0#22#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front/src/views/sidebar/sidebar-tasy.vue">
+        <entry file="file://$PROJECT_DIR$/front/src/assets/custom-monitor.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            <state relative-caret-position="442">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/back/api/controllers/monitorController.js">
+        <entry file="file://$PROJECT_DIR$/front/src/views/monitor/monitor-grid.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+            <state relative-caret-position="68">
+              <caret line="4" column="50" lean-forward="true" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/front/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front/src/views/toolbar/toolbar-elements.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="850">
+              <caret line="50" column="25" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -92,6 +78,25 @@
       <find>console.</find>
       <find>serasa</find>
       <find>philips</find>
+      <find>sidebar</find>
+      <find>Sidebar</find>
+      <find>dra</find>
+      <find>dragula</find>
+      <find>_this</find>
+      <find>Vue.</find>
+      <find>this.</find>
+      <find>type</find>
+      <find>@type</find>
+      <find>drag</find>
+      <find>&quot;row&quot;</find>
+      <find>this.$dragula</find>
+      <find>toolbar-element&quot;</find>
+      <find>vue-dragula</find>
+      <find>logServiceConfig</find>
+      <find>_typeof</find>
+      <find>log</find>
+      <find>log(</find>
+      <find>classList</find>
     </findStrings>
     <replaceStrings>
       <replace>Template</replace>
@@ -100,9 +105,17 @@
       <replace>MonitorModel</replace>
       <replace>ElementModel</replace>
       <replace>Philips</replace>
+      <replace>Toolbar</replace>
+      <replace>this.</replace>
+      <replace>Vue.</replace>
+      <replace>&quot;grid-row&quot;</replace>
+      <replace>Vue.$dragula</replace>
+      <replace>toolbar-element container&quot;</replace>
+      <replace>console.log(</replace>
     </replaceStrings>
     <dirStrings>
       <dir>C:\Projetos\custom-monitor-api\api</dir>
+      <dir>C:\Projetos\custom-monitor-api\front\src</dir>
       <dir>C:\Projetos\custom-monitor-api\front</dir>
     </dirStrings>
   </component>
@@ -135,11 +148,23 @@
         <option value="$PROJECT_DIR$/back/api/controllers/monitorController.js" />
         <option value="$PROJECT_DIR$/front/src/router/index.ts" />
         <option value="$PROJECT_DIR$/front/src/views/Home.vue" />
-        <option value="$PROJECT_DIR$/front/src/views/Poc.vue" />
         <option value="$PROJECT_DIR$/front/src/views/sidebar/sidebar.vue" />
-        <option value="$PROJECT_DIR$/front/src/App.vue" />
-        <option value="$PROJECT_DIR$/front/src/views/sidebar/sidebar-tasy.vue" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/front/src/views/sidebar/sidebar-tasy.vue" />
+        <option value="$PROJECT_DIR$/back/framework/monitor.js" />
+        <option value="$PROJECT_DIR$/front/src/assets/dragula.js" />
+        <option value="$PROJECT_DIR$/front/src/assets/dragula/dragula.min.css" />
+        <option value="$PROJECT_DIR$/front/src/assets/dragula/dragula.js" />
+        <option value="$PROJECT_DIR$/front/package.json" />
+        <option value="$PROJECT_DIR$/front/src/views/Poc.vue" />
+        <option value="$PROJECT_DIR$/front/src/views/toolbar/toolbar.vue" />
+        <option value="$PROJECT_DIR$/front/src/App.vue" />
+        <option value="$PROJECT_DIR$/front/src/main.ts" />
+        <option value="$PROJECT_DIR$/front/node_modules/vue2-dragula/dist/vue-dragula.js" />
+        <option value="$PROJECT_DIR$/front/src/views/toolbar/toolbar-elements.vue" />
+        <option value="$PROJECT_DIR$/front/src/assets/custom-monitor.css" />
+        <option value="$PROJECT_DIR$/front/src/views/monitor/monitor-grid.vue" />
+        <option value="$PROJECT_DIR$/front/.gitignore" />
       </list>
     </option>
   </component>
@@ -171,6 +196,62 @@
               <item name="custom-monitor-api" type="b2602c69:ProjectViewProjectNode" />
               <item name="custom-monitor-api" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="custom-monitor-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="custom-monitor-api" type="462c0819:PsiDirectoryNode" />
+              <item name="back" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="custom-monitor-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="custom-monitor-api" type="462c0819:PsiDirectoryNode" />
+              <item name="back" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="custom-monitor-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="custom-monitor-api" type="462c0819:PsiDirectoryNode" />
+              <item name="back" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="custom-monitor-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="custom-monitor-api" type="462c0819:PsiDirectoryNode" />
+              <item name="back" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="custom-monitor-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="custom-monitor-api" type="462c0819:PsiDirectoryNode" />
+              <item name="front" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="custom-monitor-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="custom-monitor-api" type="462c0819:PsiDirectoryNode" />
+              <item name="front" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="custom-monitor-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="custom-monitor-api" type="462c0819:PsiDirectoryNode" />
+              <item name="front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="custom-monitor-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="custom-monitor-api" type="462c0819:PsiDirectoryNode" />
+              <item name="front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="custom-monitor-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="custom-monitor-api" type="462c0819:PsiDirectoryNode" />
+              <item name="front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="monitor" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -180,25 +261,26 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../petclub" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vue-dragula" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="ts.external.directory.path" value="C:\Projetos\custom-monitor-api\front\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projetos\custom-monitor-api\front\src\views\monitor" />
+      <recent name="C:\Projetos\custom-monitor-api\front\src\views\sidebar" />
+      <recent name="C:\Projetos\custom-monitor-api\front\src\assets\bootstrap" />
+      <recent name="C:\Projetos\custom-monitor-api\front\src\views" />
+      <recent name="C:\Projetos\custom-monitor-api\views" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Projetos\custom-monitor-api\back\framework" />
       <recent name="C:\Projetos\custom-monitor-api" />
       <recent name="C:\Projetos\custom-monitor-api\api\framework\monitor" />
       <recent name="C:\Projetos\custom-monitor-api\api\framework\elements" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Projetos\custom-monitor-api\front\src\assets\bootstrap" />
-      <recent name="C:\Projetos\custom-monitor-api\front\src\views" />
-      <recent name="C:\Projetos\custom-monitor-api\views" />
-      <recent name="C:\Projetos\custom-monitor-api\api\framework\elements" />
-      <recent name="C:\Projetos\custom-monitor-api\api\framework" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -229,12 +311,14 @@
       <workItem from="1604061124790" duration="17152000" />
       <workItem from="1604407399221" duration="5673000" />
       <workItem from="1604492571619" duration="8560000" />
-      <workItem from="1604595692152" duration="1537000" />
+      <workItem from="1604595692152" duration="15914000" />
+      <workItem from="1604663496263" duration="18270000" />
+      <workItem from="1605006305824" duration="2008000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38031000" />
+    <option name="totallyTimeSpent" value="72686000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -260,6 +344,27 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17913593" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3290461" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="TypeScript" order="11" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -328,30 +433,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/views/Home.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/front/src/assets/bootstrap/css/bootstrap.css" />
-    <entry file="file://$PROJECT_DIR$/front/src/main.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/back/api/controllers/monitorController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -359,41 +441,170 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/views/sidebar/sidebar.vue">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="59" column="18" lean-forward="true" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
+        <state relative-caret-position="17">
+          <caret line="1" column="17" lean-forward="true" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/plugins/vuetify.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
           <folding>
-            <element signature="n#style#0;n#v-sheet#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="e#0#22#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/views/Home.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="22" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/assets/dragula.js" />
+    <entry file="file://$PROJECT_DIR$/front/src/assets/dragula/dragula.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="286" selection-start-column="286" selection-end-column="286" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/node_modules/dragula/dist/dragula.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/assets/dragula/dragula.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="1142" column="32" lean-forward="true" selection-start-line="1142" selection-start-column="32" selection-end-line="1142" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/node_modules/dragula/dist/dragula.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/babel.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/framework/monitor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="23" column="10" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/front/src/App.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="39" lean-forward="true" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+        <state relative-caret-position="511">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/views/toolbar/toolbar.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="766">
+          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/front/src/views/Poc.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+        <state relative-caret-position="357">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#388#434#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/views/sidebar/sidebar-tasy.vue">
+    <entry file="file://$PROJECT_DIR$/front/node_modules/vue2-dragula/src/vue-dragula.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="125">
+          <caret line="41" column="23" lean-forward="true" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/front/node_modules/vue2-dragula/dist/vue-dragula.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        <state relative-caret-position="550">
+          <caret line="2267" column="88" lean-forward="true" selection-start-line="2267" selection-start-column="88" selection-end-line="2267" selection-end-column="88" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/api/models/monitorModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/main.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/assets/custom-monitor.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/views/toolbar/toolbar-elements.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="50" column="25" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/views/monitor/monitor-grid.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="50" lean-forward="true" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
         </state>
       </provider>
     </entry>

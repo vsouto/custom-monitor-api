@@ -1,19 +1,19 @@
 <template>
-  <div class="toolbar-elements" v-dragula="colOne" drake="first">
+  <div class="toolbar-elements" v-dragula="colOne" drake="first" service="servical">
     <h2>Elements</h2>
-    <div class="toolbar-element">
+    <div class="toolbar-element container">
       <div>
         <h5>Token de topo 1</h5>
         <div class="toolbar-element-image"></div>
       </div>
     </div>
-    <div class="toolbar-element">
+    <div class="toolbar-element container">
       <div>
         <h5>Token de topo 2</h5>
         <div class="toolbar-element-image"></div>
       </div>
     </div>
-    <div class="toolbar-element">
+    <div class="toolbar-element container">
       <h5>Token de meio</h5>
       <div class="toolbar-element-image"></div>
     </div>
@@ -47,8 +47,62 @@
         console.log(args);
       })
 
+      let servical = Vue.$dragula.createService({
+        name: 'servical',
+        drakes: {
+          first: {
+            copy: true,
+          }
+        }
+      })
+
+      servical.on('', {
+        accepts: (drake, el, target) => {
+          console.log('accepts: ', el, target)
+          return true // target !== document.getElementById(left)
+        },
+        drag: (drake, el, container) => {
+          console.log('drag: ', 'el:', el, 'c:', container)
+          //console.log('classList', el.classList)
+          //el.classList.remove('ex-moved')
+        },
+        drop: (drake, el, container) => {
+          console.log('drop: ', el, container)
+          //console.log('classList', el.classList)
+          //el.classList.add('ex-moved')
+          return false;
+        },
+        over: (drake, el, container) => {
+          console.log('over: ', el, container)
+          //console.log('classList', el.classList)
+          //el.classList.add('ex-over')
+        },
+        out: (drake, el, container) => {
+          console.log('out: ', el, container)
+          //console.log('classList', el.classList)
+          //el.classList.remove('ex-over')
+        }
+      })
+
     },
-    ready: function () {
+    created() {
+
+      console.log('created');
+/*
+      let myService = Vue.$dragula.createService({
+        name: 'my-service',
+        drakes: {
+          first: {
+            copy: true,
+          }
+        }
+      })
+
+      myService.on({
+        drop: (el, container) => {
+          console.log('myService drop: ', el, container)
+        }
+      })*/
 
     },
     methods: {

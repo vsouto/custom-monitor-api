@@ -9,6 +9,7 @@ module.exports = class Monitor {
         this.title = options.title;
         this.elements = options.elements;
         this.grid = options.grid;
+
         /*this.grid = [
             [0,0,0,0,0,0,0,0], // Row 0
             [0,0,0,0,0,0,0,0], // 1
