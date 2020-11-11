@@ -26,7 +26,10 @@
     margin: 2px;
     padding: 2px;
 }
-
+.grid-element{
+    cursor: pointer;
+    margin: 2px;
+}
 /*
 .grid-col{
     border: 1px;
@@ -68,15 +71,16 @@
     margin: 4px;
     background-color: darkgray;
     color: white;
+    cursor: pointer;
 }
 
 /**
  * ELEMENTS
  */
 .toolbar-elements{
-    width: 230px;
-    height: 414px;
-    background-color: lightcyan;
+    width: 20%;
+    height: 90%;
+    background-color: gray;
     margin: 6px;
     padding: 6px;
     position: absolute;

@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc69c821-c527-4174-9b5e-548ce6e7a131" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/src/assets/custom-monitor.css" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/assets/custom-monitor.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/src/views/monitor/monitor-grid.vue" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/views/monitor/monitor-grid.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/views/toolbar/toolbar-elements.vue" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/views/toolbar/toolbar-elements.vue" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +18,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/front/src/main.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+            <state relative-caret-position="103">
+              <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
               </folding>
@@ -25,29 +27,59 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front/src/assets/custom-monitor.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/front/src/views/monitor/monitor-grid.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="833">
-              <caret line="58" column="14" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/front/src/views/toolbar/toolbar-elements.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
-              <caret line="50" column="25" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
+            <state relative-caret-position="680">
+              <caret line="40" column="14" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
+              <folding>
+                <element signature="e#267#288#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front/src/views/monitor/monitor-grid.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="121" lean-forward="true" selection-start-line="121" selection-end-line="121" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front/src/views/elements/token1/token1.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front/src/views/elements/media/media.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="986">
+              <caret line="58" column="11" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front/src/views/elements/info1/info1.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front/src/views/elements/generic/generic.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -56,22 +88,7 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Monitor</find>
-      <find>Element</find>
-      <find>console</find>
-      <find>console.</find>
-      <find>serasa</find>
-      <find>philips</find>
-      <find>sidebar</find>
-      <find>Sidebar</find>
-      <find>dra</find>
-      <find>dragula</find>
-      <find>_this</find>
-      <find>Vue.</find>
-      <find>this.</find>
-      <find>type</find>
       <find>@type</find>
-      <find>drag</find>
       <find>&quot;row&quot;</find>
       <find>this.$dragula</find>
       <find>toolbar-element&quot;</find>
@@ -86,6 +103,21 @@
       <find>.row{</find>
       <find>margin-left: -12px;</find>
       <find>&quot;box-row&quot;</find>
+      <find>.col-6 .col-md-4</find>
+      <find>grid-element</find>
+      <find>element</find>
+      <find>grid</find>
+      <find>toolbar-button</find>
+      <find>drag</find>
+      <find>out</find>
+      <find>&quot;first&quot;</find>
+      <find>item</find>
+      <find>&quot;second&quot;</find>
+      <find>drake=&quot;first&quot;</find>
+      <find>drake=&quot;second&quot;</find>
+      <find>dragula</find>
+      <find>items</find>
+      <find>cels</find>
     </findStrings>
     <replaceStrings>
       <replace>Template</replace>
@@ -103,11 +135,16 @@
       <replace>console.log(</replace>
       <replace>&lt;div class=&quot;box-row grid-cel&quot;&gt;.&lt;/div&gt;</replace>
       <replace>&quot;box-row grid-cel&quot;</replace>
+      <replace>.col-2</replace>
+      <replace>&quot;second&quot;</replace>
+      <replace>&quot;first&quot;</replace>
+      <replace>drake=&quot;second&quot;</replace>
+      <replace>drake=&quot;first&quot;</replace>
     </replaceStrings>
     <dirStrings>
       <dir>C:\Projetos\custom-monitor-api\api</dir>
-      <dir>C:\Projetos\custom-monitor-api\front\src</dir>
       <dir>C:\Projetos\custom-monitor-api\front</dir>
+      <dir>C:\Projetos\custom-monitor-api\front\src</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -152,10 +189,15 @@
         <option value="$PROJECT_DIR$/front/src/App.vue" />
         <option value="$PROJECT_DIR$/front/src/main.ts" />
         <option value="$PROJECT_DIR$/front/node_modules/vue2-dragula/dist/vue-dragula.js" />
-        <option value="$PROJECT_DIR$/front/src/views/toolbar/toolbar-elements.vue" />
         <option value="$PROJECT_DIR$/front/.gitignore" />
+        <option value="$PROJECT_DIR$/front/src/views/elements/element/element.vue" />
+        <option value="$PROJECT_DIR$/front/src/views/elements/token1/token1.vue" />
+        <option value="$PROJECT_DIR$/front/src/views/elements/info1/info1.vue" />
+        <option value="$PROJECT_DIR$/front/src/views/elements/generic/generic.vue" />
         <option value="$PROJECT_DIR$/front/src/assets/custom-monitor.css" />
+        <option value="$PROJECT_DIR$/front/src/views/elements/media/media.vue" />
         <option value="$PROJECT_DIR$/front/src/views/monitor/monitor-grid.vue" />
+        <option value="$PROJECT_DIR$/front/src/views/toolbar/toolbar-elements.vue" />
       </list>
     </option>
   </component>
@@ -180,6 +222,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -241,18 +284,70 @@
               <item name="front" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="elements" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="custom-monitor-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="custom-monitor-api" type="462c0819:PsiDirectoryNode" />
+              <item name="front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="elements" type="462c0819:PsiDirectoryNode" />
+              <item name="element" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="custom-monitor-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="custom-monitor-api" type="462c0819:PsiDirectoryNode" />
+              <item name="front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="elements" type="462c0819:PsiDirectoryNode" />
+              <item name="generic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="custom-monitor-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="custom-monitor-api" type="462c0819:PsiDirectoryNode" />
+              <item name="front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="elements" type="462c0819:PsiDirectoryNode" />
+              <item name="info1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="custom-monitor-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="custom-monitor-api" type="462c0819:PsiDirectoryNode" />
+              <item name="front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="elements" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="custom-monitor-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="custom-monitor-api" type="462c0819:PsiDirectoryNode" />
+              <item name="front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="elements" type="462c0819:PsiDirectoryNode" />
+              <item name="token1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="custom-monitor-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="custom-monitor-api" type="462c0819:PsiDirectoryNode" />
+              <item name="front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="monitor" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../flexboxgrid" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vue2-dragula-demo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -304,12 +399,13 @@
       <workItem from="1604492571619" duration="8560000" />
       <workItem from="1604595692152" duration="15914000" />
       <workItem from="1604663496263" duration="18270000" />
-      <workItem from="1605006305824" duration="7965000" />
+      <workItem from="1605006305824" duration="17221000" />
+      <workItem from="1605095132334" duration="1219000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78643000" />
+    <option name="totallyTimeSpent" value="89118000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -393,7 +489,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.env" />
     <entry file="file://$PROJECT_DIR$/api/controllers/templateController.js" />
     <entry file="file://$PROJECT_DIR$/api/routes/templateRoutes.js" />
     <entry file="file://$PROJECT_DIR$/api/models/templateModel.js" />
@@ -520,16 +615,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/views/Poc.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#388#434#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/front/node_modules/vue2-dragula/src/vue-dragula.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -554,23 +639,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/main.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/views/toolbar/toolbar-elements.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="50" column="25" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/front/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -578,24 +646,89 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/views/Poc.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" lean-forward="true" selection-start-line="21" selection-end-line="38" />
+          <folding>
+            <element signature="e#388#434#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/views/elements/element/element.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="20" lean-forward="true" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/front/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="37" lean-forward="true" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+        <state relative-caret-position="952">
+          <caret line="56" column="25" lean-forward="true" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/views/elements/token1/token1.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/views/elements/media/media.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="58" column="11" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/views/elements/info1/info1.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/views/elements/generic/generic.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/front/src/assets/custom-monitor.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+        <state relative-caret-position="247">
+          <caret line="63" column="27" selection-start-line="63" selection-start-column="27" selection-end-line="63" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/main.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/front/src/views/monitor/monitor-grid.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="58" column="14" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="14" />
+        <state relative-caret-position="578">
+          <caret line="121" lean-forward="true" selection-start-line="121" selection-end-line="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/views/toolbar/toolbar-elements.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="14" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
+          <folding>
+            <element signature="e#267#288#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

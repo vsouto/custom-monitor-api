@@ -1,38 +1,32 @@
 <template>
-  <div class="toolbar-elements" v-dragula="colOne" drake="first" service="servical">
+  <div class="toolbar-elements" v-dragula="colOne" drake="first">
     <h2>Elements</h2>
-    <div class="toolbar-element container">
-      <div>
-        <h5>Token de topo 1</h5>
-        <div class="toolbar-element-image"></div>
-      </div>
-    </div>
-    <div class="toolbar-element container">
-      <div>
-        <h5>Token de topo 2</h5>
-        <div class="toolbar-element-image"></div>
-      </div>
-    </div>
-    <div class="toolbar-element container">
-      <h5>Token de meio</h5>
-      <div class="toolbar-element-image"></div>
-    </div>
+    <token1></token1>
+    <generic-element></generic-element>
+    <info1-element></info1-element>
+    <media-element></media-element>
   </div>
 </template>
 
 <script>
 
   import Vue from 'vue'
+  import Token1 from '@/views/elements/token1/token1'
+  import GenericElement from "../elements/generic/generic";
+  import Info1Element from "../elements/info1/info1";
+  import MediaElement from "../elements/media/media";
 
   export default {
     name: 'ToolbarElements',
+    components: {
+      MediaElement,
+      Info1Element,
+      GenericElement,
+      Token1
+    },
     data: () => ({
       toolbarOpen: false,
-      colOne: [
-        'You can move these elements between these two containers',
-        'Moving them anywhere else isn"t quite possible',
-        'There"s also the possibility of moving elements around in the same container, changing their position'
-      ],
+      colOne: [],
       categories: [
         [1, 2, 3],
         [4, 5, 6]
@@ -40,76 +34,11 @@
     }),
     mounted() {
 
-      var service = Vue.$dragula.$service;
-
-      service.eventBus.$on('drop', (args) => {
-        console.log('drop: ' + args[0])
-        console.log(args);
-      })
-
-      let servical = Vue.$dragula.createService({
-        name: 'servical',
-        drakes: {
-          first: {
-            copy: true,
-          }
-        }
-      })
-
-      servical.on('', {
-        accepts: (drake, el, target) => {
-          console.log('accepts: ', el, target)
-          return true // target !== document.getElementById(left)
-        },
-        drag: (drake, el, container) => {
-          console.log('drag: ', 'el:', el, 'c:', container)
-          //console.log('classList', el.classList)
-          //el.classList.remove('ex-moved')
-        },
-        drop: (drake, el, container) => {
-          console.log('drop: ', el, container)
-          //console.log('classList', el.classList)
-          //el.classList.add('ex-moved')
-          return false;
-        },
-        over: (drake, el, container) => {
-          console.log('over: ', el, container)
-          //console.log('classList', el.classList)
-          //el.classList.add('ex-over')
-        },
-        out: (drake, el, container) => {
-          console.log('out: ', el, container)
-          //console.log('classList', el.classList)
-          //el.classList.remove('ex-over')
-        }
-      })
-
     },
     created() {
 
-      console.log('created');
-/*
-      let myService = Vue.$dragula.createService({
-        name: 'my-service',
-        drakes: {
-          first: {
-            copy: true,
-          }
-        }
-      })
-
-      myService.on({
-        drop: (el, container) => {
-          console.log('myService drop: ', el, container)
-        }
-      })*/
-
     },
     methods: {
-      onClick: function () {
-        console.log(Vue.vueDragula.find('first-bag'))
-        window.alert('click event')
-      },
     }
   };
 

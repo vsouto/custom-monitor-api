@@ -1,32 +1,72 @@
 <template>
   <div>
-    <div class="container monitor-grid" v-dragula="colTwo" drake="first">
-      <!--<div class="grid-cel" v-for="cel in cels"></div>-->
-      <div class="row">
-        <div class="col-xs-12 col-sm-3 col-md-2 col-lg-1 grid-col">
-          <div class="box-row grid-cel">.</div>
+    <div class="container monitor-grid">
+      <div class="row" v-dragula="colTwo" drake="first">
+        <div class="col-md-2 col-2">
+          <div class="pa-2 v-card v-sheet v-sheet--outlined theme--light rounded-0">
+            .col-2
+          </div>
         </div>
-        <div class="col-xs-6 col-sm-6 col-md-8 col-lg-10 grid-col">
-          <div class="box-row grid-cel">.</div>
+        <div class="col-md-2 col-2">
+          <div class="pa-2 v-card v-sheet v-sheet--outlined theme--light rounded-0">
+            .col-2
+          </div>
         </div>
-        <div class="col-xs-6 col-sm-3 col-md-2 col-lg-1 grid-col">
-          <div class="box-row grid-cel">.</div>
+        <div class="col-md-2 col-2"><div class="pa-2 v-card v-sheet v-sheet--outlined theme--light rounded-0">
+          .col-2
+          </div>
+        </div>
+        <div class="col-md-2 col-2"><div class="pa-2 v-card v-sheet v-sheet--outlined theme--light rounded-0">
+          .col-2
+          </div>
+        </div>
+        <div class="col-md-2 col-2"><div class="pa-2 v-card v-sheet v-sheet--outlined theme--light rounded-0">
+          .col-2
+          </div>
+        </div>
+        <div class="col-md-2 col-2"><div class="pa-2 v-card v-sheet v-sheet--outlined theme--light rounded-0">
+          .col-2
+          </div>
         </div>
       </div>
-      <div class="row">
+      <div class="row" v-dragula="colTwo" drake="first">
+        <div class="col-md-4 col-6">
+          <div class="pa-2 v-card v-sheet v-sheet--outlined theme--light rounded-0 box-row grid-cel">.</div>
+        </div>
+        <div class="col-md-4 col-6">
+          <div class="pa-2 v-card v-sheet v-sheet--outlined theme--light rounded-0">
+            .col-6 .col-md-4
+          </div>
+        </div>
+        <div class="col-md-4 col-6"><div class="pa-2 v-card v-sheet v-sheet--outlined theme--light rounded-0">
+          .col-6 .col-md-4
+        </div></div>
+      </div>
+      <div class="row" v-dragula="colTwo" drake="first">
         <div class="col-xs-12 col-sm-3 col-md-2 col-lg-1 grid-col">
-          <div class="box-row grid-cel">.</div>
+          <v-card
+            class="pa-2"
+            outlined
+            tile
+          >
+            big card
+          </v-card>
         </div>
         <div class="col-xs-12 col-sm-9 col-md-10 col-lg-11 grid-col">
-          <div class="box-row grid-cel">.</div>
+          <v-card
+            class="pa-2"
+            outlined
+            tile
+          >
+            card
+          </v-card>
         </div>
       </div>
-      <div class="row">
-        <div class="col-xs-12
-                col-sm-8
-                col-md-6
-                col-lg-4">
-          <div class="box">Responsive</div>
+      <div class="row" v-dragula="colTwo" drake="first">
+        <div class="col-md-3 ml-md-auto">
+          <div class="pa-2 v-card v-sheet v-sheet--outlined theme--light rounded-0 box-row grid-cel">
+            .wrapped big card .wrapped big card .wrapped big card
+          </div>
         </div>
       </div>
       <div class="row">
@@ -42,7 +82,7 @@
           .col-6 .col-md-4
         </div></div>
       </div>
-      <v-row>
+      <v-row v-dragula="colTwo" drake="first">
         <v-col
           v-for="n in 2"
           :key="n"
@@ -52,6 +92,7 @@
             class="pa-2"
             outlined
             tile
+            shaped
           >
             .col-6
           </v-card>
@@ -67,20 +108,66 @@
     name: 'MonitorGrid',
     data: () => ({
       toolbarOpen: false,
-      colTwo: [
-        'This is the default use case. You only need to specify the containers you want to use',
-        'More interactive use cases lie ahead',
-        'Another message'
-      ],
-      items: [0,0,0,0,0,0,0,0],
-      cels: 8
+      colTwo: [],
     }),
     ready() {
 
     },
-    created () {
+    created() {
 
-    }
+      console.log('created');
+
+      var service = this.$dragula.$service;
+      //var service = Vue.$dragula.$service;
+
+      service.options('first', {
+        copy: true
+      })
+
+      service.eventBus.$on('drop', (args) => {
+        console.log('eventBus drop: ' + args[0])
+        console.log(args);
+      })
+
+/*
+      service.on({
+        drop: (el, container) => {
+          console.log('service drop: ', el, container)
+        },
+        drag: (el, container) => {
+          console.log('service drag: ', el, container)
+        }
+      });*/
+
+      service.on('first', {
+        accepts: (drake, el, target) => {
+          console.log('accepts: ', el, target)
+          return true // target !== document.getElementById(left)
+        },
+        drag: (drake, el, container) => {
+          console.log('drag: ', 'el:', el, 'c:', container)
+          //console.log('classList', el.classList)
+          //el.classList.remove('ex-moved')
+        },
+        drop: (drake, el, container) => {
+          console.log('drop: ', el, container)
+          //console.log('classList', el.classList)
+          //el.classList.add('ex-moved')
+          return false;
+        },
+        over: (drake, el, container) => {
+          console.log('over: ', el, container)
+          //console.log('classList', el.classList)
+          //el.classList.add('ex-over')
+        },
+        out: (drake, el, container) => {
+          console.log('out: ', el, container)
+          //console.log('classList', el.classList)
+          //el.classList.remove('ex-over')
+        }
+      })
+
+    },
   };
 </script>
 
